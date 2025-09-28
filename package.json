@@ -1,0 +1,16 @@
+{
+  "name": "MinisCloudOS",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Ewan-OVO/MinisCloudOS.git",
+  "author": "Ewan <363186283@qq.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.9.10"
+  },
+  "scripts": {
+    "dev": "vuepress dev docs --temp .temp",
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  }
+}
