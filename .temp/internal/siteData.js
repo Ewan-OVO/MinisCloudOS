@@ -42,15 +42,30 @@ export const siteData = {
       "frontmatter": {
         "title": "des总支"
       },
-      "regularPath": "/des/REAMME.html",
-      "relativePath": "des/REAMME.md",
-      "key": "v-44f2d05b",
-      "path": "/des/REAMME.html",
+      "regularPath": "/list/",
+      "relativePath": "list/README.md",
+      "key": "v-293aec8c",
+      "path": "/list/",
       "headers": [
         {
           "level": 2,
           "title": "拜火教总纲",
           "slug": "拜火教总纲"
+        }
+      ]
+    },
+    {
+      "title": "联系我们的具体方式",
+      "frontmatter": {},
+      "regularPath": "/contact.html",
+      "relativePath": "contact.md",
+      "key": "v-2c541c24",
+      "path": "/contact.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "联系我们的具体方式",
+          "slug": "联系我们的具体方式"
         }
       ]
     },
@@ -116,10 +131,10 @@ export const siteData = {
       "frontmatter": {
         "title": "细节描述"
       },
-      "regularPath": "/des/",
-      "relativePath": "des/index.md",
-      "key": "v-7f0d7cf0",
-      "path": "/des/",
+      "regularPath": "/list/other1.html",
+      "relativePath": "list/other1.md",
+      "key": "v-6d608651",
+      "path": "/list/other1.html",
       "headers": [
         {
           "level": 2,
@@ -129,29 +144,14 @@ export const siteData = {
       ]
     },
     {
-      "title": "联系我们的具体方式",
-      "frontmatter": {},
-      "regularPath": "/contact.html",
-      "relativePath": "contact.md",
-      "key": "v-2c541c24",
-      "path": "/contact.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "联系我们的具体方式",
-          "slug": "联系我们的具体方式"
-        }
-      ]
-    },
-    {
       "title": "详细解释",
       "frontmatter": {
         "title": "详细解释"
       },
-      "regularPath": "/des/other.html",
-      "relativePath": "des/other.md",
-      "key": "v-66e73f77",
-      "path": "/des/other.html",
+      "regularPath": "/list/other2.html",
+      "relativePath": "list/other2.md",
+      "key": "v-7bae5471",
+      "path": "/list/other2.html",
       "headers": [
         {
           "level": 2,
@@ -184,12 +184,12 @@ export const siteData = {
       "contact",
       {
         "title": "组合模块",
-        "path": "/des/",
+        "path": "/list/",
         "collapsable": false,
         "sidebarDepth": 1,
         "children": [
-          "/des/index",
-          "/des/other"
+          "/list/other1",
+          "/list/other2"
         ]
       }
     ],

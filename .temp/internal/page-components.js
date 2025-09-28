@@ -3,9 +3,9 @@
  */
 export default {
   "v-dbb55052": () => import("D:\\Code File\\MinisCloudOS\\docs\\README.md"),
-  "v-44f2d05b": () => import("D:\\Code File\\MinisCloudOS\\docs\\des\\REAMME.md"),
-  "v-c872bef8": () => import("D:\\Code File\\MinisCloudOS\\docs\\about.md"),
-  "v-7f0d7cf0": () => import("D:\\Code File\\MinisCloudOS\\docs\\des\\index.md"),
+  "v-293aec8c": () => import("D:\\Code File\\MinisCloudOS\\docs\\list\\README.md"),
   "v-2c541c24": () => import("D:\\Code File\\MinisCloudOS\\docs\\contact.md"),
-  "v-66e73f77": () => import("D:\\Code File\\MinisCloudOS\\docs\\des\\other.md") 
+  "v-c872bef8": () => import("D:\\Code File\\MinisCloudOS\\docs\\about.md"),
+  "v-6d608651": () => import("D:\\Code File\\MinisCloudOS\\docs\\list\\other1.md"),
+  "v-7bae5471": () => import("D:\\Code File\\MinisCloudOS\\docs\\list\\other2.md") 
 }

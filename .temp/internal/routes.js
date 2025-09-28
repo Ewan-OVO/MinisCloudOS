@@ -21,11 +21,23 @@ export const routes = [
     redirect: "/"
   },
   {
-    name: "v-44f2d05b",
-    path: "/des/REAMME.html",
+    name: "v-293aec8c",
+    path: "/list/",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-44f2d05b").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-293aec8c").then(next)
+    },
+  },
+  {
+    path: "/list/index.html",
+    redirect: "/list/"
+  },
+  {
+    name: "v-2c541c24",
+    path: "/contact.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-2c541c24").then(next)
     },
   },
   {
@@ -37,31 +49,19 @@ export const routes = [
     },
   },
   {
-    name: "v-7f0d7cf0",
-    path: "/des/",
+    name: "v-6d608651",
+    path: "/list/other1.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-7f0d7cf0").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-6d608651").then(next)
     },
   },
   {
-    path: "/des/index.html",
-    redirect: "/des/"
-  },
-  {
-    name: "v-2c541c24",
-    path: "/contact.html",
+    name: "v-7bae5471",
+    path: "/list/other2.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-2c541c24").then(next)
-    },
-  },
-  {
-    name: "v-66e73f77",
-    path: "/des/other.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-66e73f77").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-7bae5471").then(next)
     },
   },
   {
