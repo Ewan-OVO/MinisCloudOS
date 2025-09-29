@@ -14,29 +14,31 @@ title: 如何开启远程协助？
 
 ![An image](/assets/img/image-6.png)
 
+<img :src="$withBase('/assets/img/image-6.png')" alt="image">
+
 
 # 2. 点击“管理员设置”，找到SN码
 
-![](/assets/img/image-5.png)
+![An image](/assets/img/image-5.png)
 
 # 3. 点击“SN”，获得SN码，点击复制
 
-![](/assets/img/image-2.png)
+![An image](/assets/img/image-2.png)
 
 # 4. 回到登录起始页，点击产品展示头图
 
-![](/assets/img/image-4.png)
+![An image](/assets/img/image-4.png)
 
 # 5. 点击“开启远程协助”
 
-![](/assets/img/image-3.png)
+![An image](/assets/img/image-3.png)
 
 # 6. 输入复制的SN码
 
-![](/assets/img/image.png)
+![An image](/assets/img/image.png)
 
 # 7. 开启成功，获得远程协助码，点击复制
 
-![](/assets/img/image-1.png)
+![An image](/assets/img/image-1.png)
 
 # 8. 将远程协助码提供给工作人员联系技术人员对接即可

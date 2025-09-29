@@ -8,63 +8,6 @@ export const siteData = {
   "headTags": [],
   "pages": [
     {
-      "title": "Home",
-      "frontmatter": {
-        "home": true,
-        "heroImage": "/assets/img/index.png",
-        "heroText": "Hero MinisCloud",
-        "tagline": "Hero This is for OS",
-        "actionText": "快速上手 →",
-        "actionLink": "/zh/guide/",
-        "features": [
-          {
-            "title": "简洁至上",
-            "details": "以 Markdown 为中心的项目结构，以最少的配置帮助你专注于写作。"
-          },
-          {
-            "title": "Vue驱动",
-            "details": "享受 Vue + webpack 的开发体验，在 Markdown 中使用 Vue 组件，同时可以使用 Vue 来开发自定义主题。"
-          },
-          {
-            "title": "高性能",
-            "details": "VuePress 为每个页面预渲染生成静态的 HTML，同时在页面被加载的时候，将作为 SPA 运行。"
-          }
-        ],
-        "footer": "MIT Licensed | Copyright © 2018-present Evan You"
-      },
-      "regularPath": "/",
-      "relativePath": "README.md",
-      "key": "v-dbb55052",
-      "path": "/"
-    },
-    {
-      "title": "如何开启远程协助？",
-      "frontmatter": {
-        "title": "如何开启远程协助？"
-      },
-      "regularPath": "/enable_assistance.html",
-      "relativePath": "enable_assistance.md",
-      "key": "v-96954eb8",
-      "path": "/enable_assistance.html"
-    },
-    {
-      "title": "des总支",
-      "frontmatter": {
-        "title": "des总支"
-      },
-      "regularPath": "/list/",
-      "relativePath": "list/README.md",
-      "key": "v-293aec8c",
-      "path": "/list/",
-      "headers": [
-        {
-          "level": 2,
-          "title": "拜火教总纲",
-          "slug": "拜火教总纲"
-        }
-      ]
-    },
-    {
       "title": "侧边栏大纲标题",
       "frontmatter": {
         "title": "侧边栏大纲标题"
@@ -137,21 +80,31 @@ export const siteData = {
       ]
     },
     {
-      "title": "细节描述",
+      "title": "Home",
       "frontmatter": {
-        "title": "细节描述"
+        "home": true,
+        "heroImage": "/assets/img/index.png",
+        "heroText": "N5 && N5 pro",
+        "tagline": "User Manual for MinisCloudOS",
+        "actionText": "Let' go →",
+        "actionLink": "/enable_assistance/",
+        "features": null,
+        "footer": "Copyright © 2025 Minisforum. All rights reserved"
       },
-      "regularPath": "/list/other1.html",
-      "relativePath": "list/other1.md",
-      "key": "v-6d608651",
-      "path": "/list/other1.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "直接路由展示",
-          "slug": "直接路由展示"
-        }
-      ]
+      "regularPath": "/",
+      "relativePath": "README.md",
+      "key": "v-dbb55052",
+      "path": "/"
+    },
+    {
+      "title": "如何开启远程协助？",
+      "frontmatter": {
+        "title": "如何开启远程协助？"
+      },
+      "regularPath": "/enable_assistance.html",
+      "relativePath": "enable_assistance.md",
+      "key": "v-96954eb8",
+      "path": "/enable_assistance.html"
     },
     {
       "title": "详细解释",
@@ -182,6 +135,40 @@ export const siteData = {
           "level": 3,
           "title": "第三步",
           "slug": "第三步"
+        }
+      ]
+    },
+    {
+      "title": "des总支",
+      "frontmatter": {
+        "title": "des总支"
+      },
+      "regularPath": "/list/",
+      "relativePath": "list/README.md",
+      "key": "v-293aec8c",
+      "path": "/list/",
+      "headers": [
+        {
+          "level": 2,
+          "title": "拜火教总纲",
+          "slug": "拜火教总纲"
+        }
+      ]
+    },
+    {
+      "title": "细节描述",
+      "frontmatter": {
+        "title": "细节描述"
+      },
+      "regularPath": "/list/other1.html",
+      "relativePath": "list/other1.md",
+      "key": "v-6d608651",
+      "path": "/list/other1.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "直接路由展示",
+          "slug": "直接路由展示"
         }
       ]
     }
