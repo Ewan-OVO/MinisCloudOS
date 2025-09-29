@@ -1,5 +1,5 @@
 {
-  "name": "MinisCloudOS",
+  "name": "s",
   "version": "1.0.0",
   "main": "index.js",
   "repository": "https://github.com/Ewan-OVO/MinisCloudOS.git",
@@ -11,6 +11,7 @@
   "scripts": {
     "dev": "vuepress dev docs --temp .temp",
     "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs"
+    "docs:build": "vuepress build docs",
+    "deploy": "bash deploy.sh"
   }
 }

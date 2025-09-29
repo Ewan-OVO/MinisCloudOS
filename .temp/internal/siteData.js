@@ -4,7 +4,7 @@
 export const siteData = {
   "title": "",
   "description": "",
-  "base": "/",
+  "base": "/MinisCloudOS/",
   "headTags": [],
   "pages": [
     {
@@ -38,6 +38,16 @@ export const siteData = {
       "path": "/"
     },
     {
+      "title": "如何开启远程协助？",
+      "frontmatter": {
+        "title": "如何开启远程协助？"
+      },
+      "regularPath": "/enable_assistance.html",
+      "relativePath": "enable_assistance.md",
+      "key": "v-96954eb8",
+      "path": "/enable_assistance.html"
+    },
+    {
       "title": "des总支",
       "frontmatter": {
         "title": "des总支"
@@ -51,21 +61,6 @@ export const siteData = {
           "level": 2,
           "title": "拜火教总纲",
           "slug": "拜火教总纲"
-        }
-      ]
-    },
-    {
-      "title": "联系我们的具体方式",
-      "frontmatter": {},
-      "regularPath": "/contact.html",
-      "relativePath": "contact.md",
-      "key": "v-2c541c24",
-      "path": "/contact.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "联系我们的具体方式",
-          "slug": "联系我们的具体方式"
         }
       ]
     },
@@ -127,6 +122,21 @@ export const siteData = {
       ]
     },
     {
+      "title": "联系我们的具体方式",
+      "frontmatter": {},
+      "regularPath": "/contact.html",
+      "relativePath": "contact.md",
+      "key": "v-2c541c24",
+      "path": "/contact.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "联系我们的具体方式",
+          "slug": "联系我们的具体方式"
+        }
+      ]
+    },
+    {
       "title": "细节描述",
       "frontmatter": {
         "title": "细节描述"
@@ -177,22 +187,20 @@ export const siteData = {
     }
   ],
   "themeConfig": {
-    "smoothScroll": true,
-    "sidebar": [
-      "",
-      "about",
-      "contact",
-      {
-        "title": "组合模块",
-        "path": "/list/",
-        "collapsable": false,
-        "sidebarDepth": 1,
-        "children": [
-          "/list/other1",
-          "/list/other2"
-        ]
-      }
-    ],
+    "searchMaxSuggestions": 10,
+    "sidebar": {
+      "/": [
+        "",
+        "about",
+        "contact",
+        "enable_assistance",
+        "/list/"
+      ],
+      "/list/": [
+        "/list/other1",
+        "/list/other2"
+      ]
+    },
     "logo": "/assets/img/logo.png",
     "nav": [
       {
