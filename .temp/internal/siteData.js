@@ -8,6 +8,40 @@ export const siteData = {
   "headTags": [],
   "pages": [
     {
+      "title": "Home",
+      "frontmatter": {
+        "home": true,
+        "heroImage": "/assets/img/index.png",
+        "heroText": "N5 && N5 pro",
+        "tagline": "User Manual for MinisCloudOS",
+        "actionText": "Let' go →",
+        "actionLink": "/enable_assistance/",
+        "features": null,
+        "footer": "Copyright © 2025 Minisforum. All rights reserved"
+      },
+      "regularPath": "/",
+      "relativePath": "README.md",
+      "key": "v-dbb55052",
+      "path": "/"
+    },
+    {
+      "title": "des总支",
+      "frontmatter": {
+        "title": "des总支"
+      },
+      "regularPath": "/list/",
+      "relativePath": "list/README.md",
+      "key": "v-293aec8c",
+      "path": "/list/",
+      "headers": [
+        {
+          "level": 2,
+          "title": "拜火教总纲",
+          "slug": "拜火教总纲"
+        }
+      ]
+    },
+    {
       "title": "侧边栏大纲标题",
       "frontmatter": {
         "title": "侧边栏大纲标题"
@@ -80,33 +114,6 @@ export const siteData = {
       ]
     },
     {
-      "title": "Home",
-      "frontmatter": {
-        "home": true,
-        "heroImage": "/assets/img/index.png",
-        "heroText": "N5 && N5 pro",
-        "tagline": "User Manual for MinisCloudOS",
-        "actionText": "Let' go →",
-        "actionLink": "/enable_assistance/",
-        "features": null,
-        "footer": "Copyright © 2025 Minisforum. All rights reserved"
-      },
-      "regularPath": "/",
-      "relativePath": "README.md",
-      "key": "v-dbb55052",
-      "path": "/"
-    },
-    {
-      "title": "如何开启远程协助？",
-      "frontmatter": {
-        "title": "如何开启远程协助？"
-      },
-      "regularPath": "/enable_assistance.html",
-      "relativePath": "enable_assistance.md",
-      "key": "v-96954eb8",
-      "path": "/enable_assistance.html"
-    },
-    {
       "title": "详细解释",
       "frontmatter": {
         "title": "详细解释"
@@ -139,23 +146,6 @@ export const siteData = {
       ]
     },
     {
-      "title": "des总支",
-      "frontmatter": {
-        "title": "des总支"
-      },
-      "regularPath": "/list/",
-      "relativePath": "list/README.md",
-      "key": "v-293aec8c",
-      "path": "/list/",
-      "headers": [
-        {
-          "level": 2,
-          "title": "拜火教总纲",
-          "slug": "拜火教总纲"
-        }
-      ]
-    },
-    {
       "title": "细节描述",
       "frontmatter": {
         "title": "细节描述"
@@ -169,6 +159,63 @@ export const siteData = {
           "level": 2,
           "title": "直接路由展示",
           "slug": "直接路由展示"
+        }
+      ]
+    },
+    {
+      "title": "如何开启远程协助？",
+      "frontmatter": {
+        "title": "如何开启远程协助？"
+      },
+      "regularPath": "/enable_assistance.html",
+      "relativePath": "enable_assistance.md",
+      "key": "v-96954eb8",
+      "path": "/enable_assistance.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "前言",
+          "slug": "前言"
+        },
+        {
+          "level": 2,
+          "title": "1. 登录管理员账号，点击“设置”模块",
+          "slug": "_1-登录管理员账号-点击-设置-模块"
+        },
+        {
+          "level": 2,
+          "title": "2. 点击“管理员设置”，找到SN码",
+          "slug": "_2-点击-管理员设置-找到sn码"
+        },
+        {
+          "level": 2,
+          "title": "3. 点击“SN”，获得SN码，点击复制",
+          "slug": "_3-点击-sn-获得sn码-点击复制"
+        },
+        {
+          "level": 2,
+          "title": "4. 回到登录起始页，点击产品展示头图",
+          "slug": "_4-回到登录起始页-点击产品展示头图"
+        },
+        {
+          "level": 2,
+          "title": "5. 点击“开启远程协助”",
+          "slug": "_5-点击-开启远程协助"
+        },
+        {
+          "level": 2,
+          "title": "6. 输入复制的SN码",
+          "slug": "_6-输入复制的sn码"
+        },
+        {
+          "level": 2,
+          "title": "7. 开启成功，获得远程协助码，点击复制",
+          "slug": "_7-开启成功-获得远程协助码-点击复制"
+        },
+        {
+          "level": 2,
+          "title": "8. 将远程协助码提供给工作人员联系技术人员对接即可",
+          "slug": "_8-将远程协助码提供给工作人员联系技术人员对接即可"
         }
       ]
     }

@@ -2,7 +2,7 @@
 title: 如何开启远程协助？
 ---
 
-# 前言
+## 前言
 
 > 我们的远程协助服务严格遵守最小权限原则，仅用于技术人员通过安全加密通道查看设备日志，以快速定位问题根源。全程操作具备以下安全保障：
 >
@@ -10,35 +10,32 @@ title: 如何开启远程协助？
 >
 > 2. **无感化服务**：连接期间所有用户操作不受影响，设备性能保持100%可用状态
 
-# 1. 登录管理员账号，点击“设置”模块
-
-![An image](/assets/img/image-6.png)
+## 1. 登录管理员账号，点击“设置”模块
 
 <img :src="$withBase('/assets/img/image-6.png')" alt="image">
 
+## 2. 点击“管理员设置”，找到SN码
 
-# 2. 点击“管理员设置”，找到SN码
+<img :src="$withBase('/assets/img/image-5.png')" alt="image">
 
-![An image](/assets/img/image-5.png)
+## 3. 点击“SN”，获得SN码，点击复制
 
-# 3. 点击“SN”，获得SN码，点击复制
+<img :src="$withBase('/assets/img/image-2.png')" alt="image">
 
-![An image](/assets/img/image-2.png)
+## 4. 回到登录起始页，点击产品展示头图
 
-# 4. 回到登录起始页，点击产品展示头图
+<img :src="$withBase('/assets/img/image-4.png')" alt="image">
 
-![An image](/assets/img/image-4.png)
+## 5. 点击“开启远程协助”
 
-# 5. 点击“开启远程协助”
+<img :src="$withBase('/assets/img/image-3.png')" alt="image">
 
-![An image](/assets/img/image-3.png)
+## 6. 输入复制的SN码
 
-# 6. 输入复制的SN码
+<img :src="$withBase('/assets/img/image.png')" alt="image">
 
-![An image](/assets/img/image.png)
+## 7. 开启成功，获得远程协助码，点击复制
 
-# 7. 开启成功，获得远程协助码，点击复制
+<img :src="$withBase('/assets/img/image-1.png')" alt="image">
 
-![An image](/assets/img/image-1.png)
-
-# 8. 将远程协助码提供给工作人员联系技术人员对接即可
+## 8. 将远程协助码提供给工作人员联系技术人员对接即可
