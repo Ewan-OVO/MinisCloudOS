@@ -12,7 +12,7 @@ title: 如何开启远程协助？
 
 ## 1. 登录管理员账号，点击“设置”模块
 
-<img :src="$withBase('/assets/img/image-6.png')" alt="image">
+![An image](/MinisCloudOS/assets/img/image-6.png)
 
 ## 2. 点击“管理员设置”，找到SN码
 

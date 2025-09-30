@@ -8,21 +8,61 @@ export const siteData = {
   "headTags": [],
   "pages": [
     {
-      "title": "Home",
+      "title": "如何开启远程协助？",
       "frontmatter": {
-        "home": true,
-        "heroImage": "/assets/img/index.png",
-        "heroText": "N5 && N5 pro",
-        "tagline": "User Manual for MinisCloudOS",
-        "actionText": "Let' go →",
-        "actionLink": "/enable_assistance/",
-        "features": null,
-        "footer": "Copyright © 2025 Minisforum. All rights reserved"
+        "title": "如何开启远程协助？"
       },
-      "regularPath": "/",
-      "relativePath": "README.md",
-      "key": "v-dbb55052",
-      "path": "/"
+      "regularPath": "/enable_assistance.html",
+      "relativePath": "enable_assistance.md",
+      "key": "v-96954eb8",
+      "path": "/enable_assistance.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "前言",
+          "slug": "前言"
+        },
+        {
+          "level": 2,
+          "title": "1. 登录管理员账号，点击“设置”模块",
+          "slug": "_1-登录管理员账号-点击-设置-模块"
+        },
+        {
+          "level": 2,
+          "title": "2. 点击“管理员设置”，找到SN码",
+          "slug": "_2-点击-管理员设置-找到sn码"
+        },
+        {
+          "level": 2,
+          "title": "3. 点击“SN”，获得SN码，点击复制",
+          "slug": "_3-点击-sn-获得sn码-点击复制"
+        },
+        {
+          "level": 2,
+          "title": "4. 回到登录起始页，点击产品展示头图",
+          "slug": "_4-回到登录起始页-点击产品展示头图"
+        },
+        {
+          "level": 2,
+          "title": "5. 点击“开启远程协助”",
+          "slug": "_5-点击-开启远程协助"
+        },
+        {
+          "level": 2,
+          "title": "6. 输入复制的SN码",
+          "slug": "_6-输入复制的sn码"
+        },
+        {
+          "level": 2,
+          "title": "7. 开启成功，获得远程协助码，点击复制",
+          "slug": "_7-开启成功-获得远程协助码-点击复制"
+        },
+        {
+          "level": 2,
+          "title": "8. 将远程协助码提供给工作人员联系技术人员对接即可",
+          "slug": "_8-将远程协助码提供给工作人员联系技术人员对接即可"
+        }
+      ]
     },
     {
       "title": "des总支",
@@ -99,17 +139,19 @@ export const siteData = {
       ]
     },
     {
-      "title": "联系我们的具体方式",
-      "frontmatter": {},
-      "regularPath": "/contact.html",
-      "relativePath": "contact.md",
-      "key": "v-2c541c24",
-      "path": "/contact.html",
+      "title": "细节描述",
+      "frontmatter": {
+        "title": "细节描述"
+      },
+      "regularPath": "/list/other1.html",
+      "relativePath": "list/other1.md",
+      "key": "v-6d608651",
+      "path": "/list/other1.html",
       "headers": [
         {
           "level": 2,
-          "title": "联系我们的具体方式",
-          "slug": "联系我们的具体方式"
+          "title": "直接路由展示",
+          "slug": "直接路由展示"
         }
       ]
     },
@@ -146,78 +188,36 @@ export const siteData = {
       ]
     },
     {
-      "title": "细节描述",
-      "frontmatter": {
-        "title": "细节描述"
-      },
-      "regularPath": "/list/other1.html",
-      "relativePath": "list/other1.md",
-      "key": "v-6d608651",
-      "path": "/list/other1.html",
+      "title": "联系我们的具体方式",
+      "frontmatter": {},
+      "regularPath": "/contact.html",
+      "relativePath": "contact.md",
+      "key": "v-2c541c24",
+      "path": "/contact.html",
       "headers": [
         {
           "level": 2,
-          "title": "直接路由展示",
-          "slug": "直接路由展示"
+          "title": "联系我们的具体方式",
+          "slug": "联系我们的具体方式"
         }
       ]
     },
     {
-      "title": "如何开启远程协助？",
+      "title": "Home",
       "frontmatter": {
-        "title": "如何开启远程协助？"
+        "home": true,
+        "heroImage": "/assets/img/index.png",
+        "heroText": "N5 && N5 pro",
+        "tagline": "User Manual for MinisCloudOS",
+        "actionText": "Let' go →",
+        "actionLink": "/enable_assistance/",
+        "features": null,
+        "footer": "Copyright © 2025 Minisforum. All rights reserved"
       },
-      "regularPath": "/enable_assistance.html",
-      "relativePath": "enable_assistance.md",
-      "key": "v-96954eb8",
-      "path": "/enable_assistance.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "前言",
-          "slug": "前言"
-        },
-        {
-          "level": 2,
-          "title": "1. 登录管理员账号，点击“设置”模块",
-          "slug": "_1-登录管理员账号-点击-设置-模块"
-        },
-        {
-          "level": 2,
-          "title": "2. 点击“管理员设置”，找到SN码",
-          "slug": "_2-点击-管理员设置-找到sn码"
-        },
-        {
-          "level": 2,
-          "title": "3. 点击“SN”，获得SN码，点击复制",
-          "slug": "_3-点击-sn-获得sn码-点击复制"
-        },
-        {
-          "level": 2,
-          "title": "4. 回到登录起始页，点击产品展示头图",
-          "slug": "_4-回到登录起始页-点击产品展示头图"
-        },
-        {
-          "level": 2,
-          "title": "5. 点击“开启远程协助”",
-          "slug": "_5-点击-开启远程协助"
-        },
-        {
-          "level": 2,
-          "title": "6. 输入复制的SN码",
-          "slug": "_6-输入复制的sn码"
-        },
-        {
-          "level": 2,
-          "title": "7. 开启成功，获得远程协助码，点击复制",
-          "slug": "_7-开启成功-获得远程协助码-点击复制"
-        },
-        {
-          "level": 2,
-          "title": "8. 将远程协助码提供给工作人员联系技术人员对接即可",
-          "slug": "_8-将远程协助码提供给工作人员联系技术人员对接即可"
-        }
-      ]
+      "regularPath": "/",
+      "relativePath": "README.md",
+      "key": "v-dbb55052",
+      "path": "/"
     }
   ],
   "themeConfig": {

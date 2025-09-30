@@ -9,16 +9,12 @@ import GlobalLayout from "D:\\Code File\\MinisCloudOS\\node_modules\\@vuepress\\
 injectComponentOption(GlobalLayout, 'mixins', rootMixins)
 export const routes = [
   {
-    name: "v-dbb55052",
-    path: "/",
+    name: "v-96954eb8",
+    path: "/enable_assistance.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-dbb55052").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-96954eb8").then(next)
     },
-  },
-  {
-    path: "/index.html",
-    redirect: "/"
   },
   {
     name: "v-293aec8c",
@@ -41,11 +37,11 @@ export const routes = [
     },
   },
   {
-    name: "v-2c541c24",
-    path: "/contact.html",
+    name: "v-6d608651",
+    path: "/list/other1.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-2c541c24").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-6d608651").then(next)
     },
   },
   {
@@ -57,20 +53,24 @@ export const routes = [
     },
   },
   {
-    name: "v-6d608651",
-    path: "/list/other1.html",
+    name: "v-2c541c24",
+    path: "/contact.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-6d608651").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-2c541c24").then(next)
     },
   },
   {
-    name: "v-96954eb8",
-    path: "/enable_assistance.html",
+    name: "v-dbb55052",
+    path: "/",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-96954eb8").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-dbb55052").then(next)
     },
+  },
+  {
+    path: "/index.html",
+    redirect: "/"
   },
   {
     path: '*',
