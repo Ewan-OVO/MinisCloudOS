@@ -6,7 +6,14 @@ module.exports = {
         logo: '/assets/img/logo.png',
         nav: [
             { text: 'Home', link: '/' },
-            { text: 'Guide', link: '/guide/' },
+            {
+                text: 'Guide',
+                ariaLabel: 'MS Guide',
+                items: [
+                    { text: 'Guide_EN', link: '/guide_EN/' },
+                    { text: 'Guide_CN', link: '/guide_CN/' }
+                ]
+            },
             { text: 'About', link: '/about/' },
             {
                 text: 'Contact',

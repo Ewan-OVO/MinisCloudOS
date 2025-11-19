@@ -8,23 +8,6 @@ export const siteData = {
   "headTags": [],
   "pages": [
     {
-      "title": "Home",
-      "frontmatter": {
-        "home": true,
-        "heroImage": "/assets/img/index.png",
-        "heroText": "N5 && N5 pro",
-        "tagline": "User Manual for MinisCloudOS",
-        "actionText": "Let' go →",
-        "actionLink": "/enable_assistance/",
-        "features": null,
-        "footer": "Copyright © 2025 Minisforum. All rights reserved"
-      },
-      "regularPath": "/",
-      "relativePath": "README.md",
-      "key": "v-dbb55052",
-      "path": "/"
-    },
-    {
       "title": "侧边栏大纲标题",
       "frontmatter": {
         "title": "侧边栏大纲标题"
@@ -82,17 +65,32 @@ export const siteData = {
       ]
     },
     {
-      "title": "联系我们的具体方式",
+      "title": "🟦 MS-S1 MAX WiFi Setup Guide (for Ubuntu Server 24.04)",
       "frontmatter": {},
-      "regularPath": "/contact.html",
-      "relativePath": "contact.md",
-      "key": "v-2c541c24",
-      "path": "/contact.html",
+      "regularPath": "/guide_CN.html",
+      "relativePath": "guide_CN.md",
+      "key": "v-1de84374",
+      "path": "/guide_CN.html",
       "headers": [
         {
           "level": 2,
-          "title": "联系我们的具体方式",
-          "slug": "联系我们的具体方式"
+          "title": "📦 测试环境",
+          "slug": "📦-测试环境"
+        },
+        {
+          "level": 3,
+          "title": "❗ dhclient: command not found",
+          "slug": "❗-dhclient-command-not-found"
+        },
+        {
+          "level": 3,
+          "title": "❗ Unsupported driver 'nl80211'",
+          "slug": "❗-unsupported-driver-nl80211"
+        },
+        {
+          "level": 3,
+          "title": "❗ WiFi 处于 DORMANT / no IP",
+          "slug": "❗-wifi-处于-dormant-no-ip"
         }
       ]
     },
@@ -114,14 +112,29 @@ export const siteData = {
       ]
     },
     {
+      "title": "联系我们的具体方式",
+      "frontmatter": {},
+      "regularPath": "/contact.html",
+      "relativePath": "contact.md",
+      "key": "v-2c541c24",
+      "path": "/contact.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "联系我们的具体方式",
+          "slug": "联系我们的具体方式"
+        }
+      ]
+    },
+    {
       "title": "MS-S1 MAX Ubuntu Server 24.04 Offline WiFi Configuration Guide (MT7925 Verified)",
       "frontmatter": {
         "title": "MS-S1 MAX Ubuntu Server 24.04 Offline WiFi Configuration Guide (MT7925 Verified)"
       },
-      "regularPath": "/guide.html",
-      "relativePath": "guide.md",
-      "key": "v-de9480b8",
-      "path": "/guide.html",
+      "regularPath": "/guide_EN.html",
+      "relativePath": "guide_EN.md",
+      "key": "v-23097d78",
+      "path": "/guide_EN.html",
       "headers": [
         {
           "level": 2,
@@ -162,23 +175,6 @@ export const siteData = {
           "level": 2,
           "title": "🛠 6. Enable Auto-Connect on Boot (systemd)",
           "slug": "🛠-6-enable-auto-connect-on-boot-systemd"
-        }
-      ]
-    },
-    {
-      "title": "细节描述",
-      "frontmatter": {
-        "title": "细节描述"
-      },
-      "regularPath": "/list/other1.html",
-      "relativePath": "list/other1.md",
-      "key": "v-6d608651",
-      "path": "/list/other1.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "直接路由展示",
-          "slug": "直接路由展示"
         }
       ]
     },
@@ -240,6 +236,40 @@ export const siteData = {
       ]
     },
     {
+      "title": "Home",
+      "frontmatter": {
+        "home": true,
+        "heroImage": "/assets/img/index.png",
+        "heroText": "N5 && N5 pro",
+        "tagline": "User Manual for MinisCloudOS",
+        "actionText": "Let' go →",
+        "actionLink": "/enable_assistance/",
+        "features": null,
+        "footer": "Copyright © 2025 Minisforum. All rights reserved"
+      },
+      "regularPath": "/",
+      "relativePath": "README.md",
+      "key": "v-dbb55052",
+      "path": "/"
+    },
+    {
+      "title": "细节描述",
+      "frontmatter": {
+        "title": "细节描述"
+      },
+      "regularPath": "/list/other1.html",
+      "relativePath": "list/other1.md",
+      "key": "v-6d608651",
+      "path": "/list/other1.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "直接路由展示",
+          "slug": "直接路由展示"
+        }
+      ]
+    },
+    {
       "title": "详细解释",
       "frontmatter": {
         "title": "详细解释"
@@ -295,7 +325,17 @@ export const siteData = {
       },
       {
         "text": "Guide",
-        "link": "/guide/"
+        "ariaLabel": "MS Guide",
+        "items": [
+          {
+            "text": "Guide_EN",
+            "link": "/guide_EN/"
+          },
+          {
+            "text": "Guide_CN",
+            "link": "/guide_CN/"
+          }
+        ]
       },
       {
         "text": "About",
