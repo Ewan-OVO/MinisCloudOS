@@ -6,7 +6,8 @@ module.exports = {
         logo: '/assets/img/logo.png',
         nav: [
             { text: 'Home', link: '/' },
-            { text: 'Guide', link: '/about/' },
+            { text: 'Guide', link: '/guide/' },
+            { text: 'About', link: '/about/' },
             {
                 text: 'Contact',
                 ariaLabel: 'contact Menu',
